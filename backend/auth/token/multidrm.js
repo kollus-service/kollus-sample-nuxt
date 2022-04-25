@@ -82,7 +82,7 @@ let createPolicy = (hdcp_level = -1, license_duration = -1, expire_date = -1) =>
         widevine['required_cgms_flags'] = 'COPY_NONE';
         widevine['disable_analog_output'] = true;
         widevine['hdcp_srm_rule'] = 'HDCP_SRM_RULE_NONE';
-        widevine['override_device_revocationn'] = false;
+        widevine['override_device_revocationn'] = true;
         security_policy_item['widevine'] = widevine;
         let playready = {};
         playready['security_level'] = 150;
