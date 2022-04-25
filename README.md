@@ -32,3 +32,9 @@
  > - [ ] LMS Callback 예시
  > - [ ] Bookmark 연동 예시
  > - [ ] Kollus CMS API 연동 예시
+
+## 참고사항 
+
+Widevine 정책이 변경 됨에 따라 인증 철회 되는 안드로이드 기기에 대한 강제 라이센스 발급을 할수 있는 옵션을 변경 해야함
+
+> - override_device_revocation = true
